@@ -28,7 +28,7 @@ Experience Tutorial Ninja - Where Shopping Meets Innovation.
 
 ### Parallel testing execution example
 
-![Parallel testing execution example](TutorialsNinja_Demo_DriverFactory_Parallel_Execution.gif)
+![Parallel testing execution example](TutorialsNinja_Demo_DriverFactory_Parallel_Execution_1.gif)
 
 ## Features
 
