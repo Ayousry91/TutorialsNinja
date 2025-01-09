@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja-Project">
+    <parameter name="browsername" value="chrome"/>
+    <suite-files>
+        <suite-file path="Sprint-1.xml"/>
+        <suite-file path="Sprint-2.xml"/>
+        <suite-file path="Sprint-3.xml"/>
+    </suite-files>
+
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint-1">
+    <parameter name="browsername" value="chrome"/>
+    <test name="Executing first five Test cases sequentially ">
+        <classes>
+            <class name="testcases.TC02_Registration">
+                <methods>
+                    <include name="registerNewAccount"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="loginwithDynamicData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_ForgetPassword"></class>
+            <class name="testcases.TC04_ProductSearch"></class>
+            <class name="testcases.TC05_ChangeCurrency"></class>
+        </classes>
+    </test>
+
+
+</suite>

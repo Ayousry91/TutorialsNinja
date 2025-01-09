@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint-3">
+    <parameter name="browsername" value=""/>
+    <test name="Executing last two Test cases">
+        <classes>
+
+            <class name="testcases.TC10_CompareList"></class>
+
+            <class name="testcases.TC11_CreateOrder"></class>
+        </classes>
+    </test>
+</suite>

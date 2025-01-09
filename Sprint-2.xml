@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sprint-2" parallel="tests" thread-count="3">
+
+    <test name="Executing  random category using firefox">
+        <parameter name="browsername" value="firefox"/>
+        <classes>
+            <class name="testcases.TC06_SelectRandomCategory">
+                <methods>
+                    <include name="hoverByMouseAndSelectRandomCategory_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Executing random category using chrome">
+        <parameter name="browsername" value="chrome"/>
+        <classes>
+            <class name="testcases.TC07_SelectRandomSubCategory">
+                <methods>
+                    <include name="hoverByMouseAndSelectRandomSubCategory_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Executing shopping cart and Wish List using Edge">
+        <parameter name="browsername" value="edge"/>
+        <classes>
+            <class name="testcases.TC08_ShoppingCar"></class>
+            <class name="testcases.TC09_WishList"></class>
+        </classes>
+    </test>
+
+</suite>
